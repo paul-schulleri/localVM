@@ -2,6 +2,6 @@
 .DS_Store
 .idea
 *.iml
-
+.vagrant
 # Vendor Packages
 /vendor
