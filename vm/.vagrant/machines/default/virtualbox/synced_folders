@@ -1,1 +1,0 @@
-{"virtualbox":{"web-root":{"id":"web-root","nfs":true,"guestpath":"/devel/Schulleri","hostpath":"U:/Share","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"U:/Development/localVM/vm","disabled":false,"__vagrantfile":true}}}
