@@ -14,7 +14,8 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
     config.vm.box = "ubuntu/trusty64"
 
-    config.vm.synced_folder "U:\\Share", "/devel/Schulleri", id: "web-root", nfs: true
+    config.vm.synced_folder "U:\\Share", "/Share/Documents", id: "web-root", nfs: true
+    config.vm.synced_folder "U:\\Development", "/Share/Development", id: "web-root", nfs: true
 
     config.vm.provision :shell, :path => "provision/bootstrap.sh"
     config.vm.provision :shell, :path => "provision/vhosts.sh"
